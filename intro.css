@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+/* =========== 미디어 쿼리 ============ */
+/* 미디어 종류: all, print, screen, speech... 그 밖에 장치는 검색 */
+@media screen and (max-width : 768px) { 
+    body {
+        background-color: #ebebeb;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #00ebfc;
+    }
+}
