@@ -1,0 +1,98 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+.logo {
+  width: 154px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.wide {
+  height: 309px;
+  position: relative;
+  background-color: #006fff;
+  text-align: center;
+  background-image: url("images/visual-wide.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#model {
+  position: absolute;
+  bottom: 0;
+}
+.menu {
+  background-color: black; /*메뉴 배경색*/
+}
+.menu ul {
+  list-style-type: none; /*목록-스타일-종류 : 없음 (사각형, 채워진 원, 빈 원) */
+  display: flex; /*표시*/
+  justify-content: center; /*컨텐츠 정렬: 가운데 */
+}
+.menu ul li, .sub_menu ul li {
+  padding: 20px 0;
+  margin: 0 10px;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none; /*텍스트 꾸밈 속성: 없음*/
+}
+.sub_menu {
+  background-color: #fafafa;
+  border: 1px solid gray;
+  margin-top: 50px;
+}
+.sub_menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.sub_menu ul li {
+  padding: 20px 0;
+  margin: 0 10px;
+}
+.sub_menu ul li a {
+  color: #666666;
+  text-decoration: none;
+}
+.price,
+.casting {
+  width: 700px;
+  margin: 0 auto;
+}
+.price th, .casting th {
+  width: 200px;
+}
+.price,
+.price th,
+.price td,
+.casting,
+.casting th,
+.casting td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.price caption,
+.casting caption {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.price th,
+.price td,
+.casting th,
+.casting td {
+  padding: 15px 0;
+  text-align: center;
+}
+.site-info {
+  background-color: black;
+  text-align: center;
+}
+.site-info p {
+  color: white;
+}
